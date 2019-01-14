@@ -25,7 +25,6 @@ if($_POST['login']){
     echo "Неверный логин или пароль!";
 }
 
-
 if($_SESSION["color"] = $_POST["color"]){
     header('Location: content.php');
 }
